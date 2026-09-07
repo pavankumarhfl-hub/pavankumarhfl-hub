@@ -28,9 +28,14 @@ My goal is to develop the technical depth to independently design, build, deploy
 
 ## ⭐ Featured work
 
-I'm building a portfolio around **original, well-engineered public projects** rather than a large collection of shallow repositories.
+### RepoLens
+A lightweight Python tool that checks a repository for practical engineering hygiene signals such as documentation, licensing, tests, environment templates, and CI.
 
-Featured projects will be added here as they reach a genuinely portfolio-ready standard.
+**Status:** v0.1 — working foundation
+
+→ [`projects/repolens`](./projects/repolens)
+
+I'm building a portfolio around **original, well-engineered public projects** rather than a large collection of shallow repositories.
 
 ## 🌱 Open source
 
