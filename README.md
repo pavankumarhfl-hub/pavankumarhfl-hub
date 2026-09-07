@@ -2,69 +2,43 @@
 
 **Student • Independent Builder • AI & Software Engineering**
 
-I learn by building practical software, turning ideas into working products, and improving them through real testing and iteration.
+I build practical developer infrastructure, security tooling, distributed systems, and AI-agent infrastructure — with a focus on software that other developers can actually use.
 
-## 🚀 What I'm building
-
-- 🤖 AI-powered applications and automation
-- 🧰 Developer tools and security tooling
-- 🌐 Full-stack applications
-- 🧪 Technical systems that become usable products
-- 🏆 Projects built with hackathons and technical competitions in mind
-
-## 🎯 Current focus
-
-**Build → Ship → Test → Improve**
-
-My goal is to develop the technical depth to independently design, build, deploy, secure, and maintain useful software.
-
-## 🛠️ Tech
-
-**Languages:** C, C++, Python, TypeScript, JavaScript  
-**Frontend / App:** React, React Native, Expo  
-**Backend / Cloud:** APIs, Firebase, cloud services  
-**AI:** LLM applications, AI agents, automation  
-**Engineering:** Git, GitHub, testing, CI/CD, security, documentation
-
-## ⭐ Featured work
+## 🚀 Featured open-source work
 
 ### [RepoLens](https://github.com/pavankumarhfl-hub/repolens)
-Repository engineering-health tooling that evaluates practical signals across documentation, testing, delivery, security, project structure, dependencies, and release hygiene. Includes CLI, JSON/SARIF output, score gating, and a GitHub Action.
-
-**Status:** v0.3 foundation shipped  
-**Stack:** Python • pytest • GitHub Actions
+Repository engineering intelligence that evaluates documentation, testing, delivery, security, dependencies, project structure, and release hygiene. CLI + JSON/SARIF + GitHub Action.
 
 ### [SecretSentry](https://github.com/pavankumarhfl-hub/secretsentry)
-Privacy-first secret detection for source trees and CI. Detects provider-specific and generic credential patterns while avoiding full secret output. Includes redaction, fingerprints, JSON/SARIF, baselines, and a GitHub Action.
+Privacy-first secret detection for source trees and CI. Provider-aware patterns, redaction, fingerprints, baselines, JSON/SARIF, GitHub Action, and pre-commit workflows.
 
-**Status:** v0.1 foundation shipped  
-**Stack:** Python • pytest • GitHub Actions
+### [JobForge](https://github.com/pavankumarhfl-hub/jobforge)
+Durable SQLite-backed job infrastructure with atomic claims, leases, retries, dead-letter handling, delayed work, statistics, and a worker runtime.
 
-I'm building a portfolio around **original, well-engineered public projects** rather than a large collection of shallow repositories.
+### AgentMesh — AI Agent Runtime
+An open-source runtime for tool-using AI agents with explicit planning, least-privilege policies, bounded memory, retries, dry-run execution, and structured audit events. Built as the AI/automation layer of this portfolio.
 
-## 🧭 Portfolio direction
+**Maintainer:** Pavan Kumar BN  
+**Project:** `projects/agentmesh`
 
-**Developer Intelligence → Security → Distributed Systems → AI/Automation**
+## 🧭 Engineering direction
 
-Each project is intended to demonstrate a different engineering capability, with real tests, documentation, automation, and production-minded design.
+**Developer Intelligence → Security → Distributed Systems → AI Agent Infrastructure**
 
-## 🌱 Open source
+The goal is not to collect shallow repositories. Each project is designed to demonstrate a distinct engineering capability with tests, documentation, automation, security thinking, and a path toward real open-source adoption.
 
-I'm working toward meaningful open-source participation through useful contributions, bug fixes, documentation, security improvements, and developer tooling.
+## 🛠️ Core stack
 
-## 📌 Portfolio principles
+Python • C/C++ • TypeScript • JavaScript • React • React Native • APIs • Cloud • AI agents • GitHub Actions • Testing • Security
 
-- Build original work
-- Document the engineering clearly
-- Test before claiming it works
-- Ship usable software
-- Treat security as an engineering requirement
-- Keep improving in public
+## 🌱 Open source principles
 
-## 🔗 Connect
-
-- GitHub: [@pavankumarhfl-hub](https://github.com/pavankumarhfl-hub)
-
----
+- Build useful software, not demos only
+- Prefer explicit security boundaries
+- Test before claiming reliability
+- Keep core dependencies small
+- Document architecture and trade-offs
+- Make contribution paths clear
+- Improve projects in public
 
 > Building in public. Learning deeply. Shipping useful software.
