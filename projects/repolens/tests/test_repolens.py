@@ -1,6 +1,7 @@
+import json
 from pathlib import Path
 
-from repolens import run_checks, score
+from repolens import main, result, run_checks, score
 
 
 def make_repo(tmp_path: Path, *paths: str) -> Path:
@@ -34,3 +35,22 @@ def test_partial_score(tmp_path: Path):
     checks = run_checks(root)
     assert score(checks) == 33
     assert not all(check.passed for check in checks)
+
+
+def test_result_is_machine_readable(tmp_path: Path):
+    root = make_repo(tmp_path, "README.md")
+    report = result(root)
+    encoded = json.dumps(report)
+    decoded = json.loads(encoded)
+    assert decoded["score"] == 17
+    assert len(decoded["checks"]) == 6
+
+
+def test_json_cli_output(tmp_path: Path, capsys, monkeypatch):
+    root = make_repo(tmp_path, "README.md", ".gitignore")
+    monkeypatch.setattr("sys.argv", ["repolens", str(root), "--json"])
+    assert main() == 0
+    output = capsys.readouterr().out
+    report = json.loads(output)
+    assert report["repository"] == root.name
+    assert report["score"] == 33
