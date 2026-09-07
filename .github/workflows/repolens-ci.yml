@@ -1,0 +1,29 @@
+name: RepoLens CI
+
+on:
+  push:
+    paths:
+      - "projects/repolens/**"
+      - ".github/workflows/repolens-ci.yml"
+  pull_request:
+    paths:
+      - "projects/repolens/**"
+      - ".github/workflows/repolens-ci.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test dependency
+        run: python -m pip install pytest
+      - name: Run tests
+        working-directory: projects/repolens
+        env:
+          PYTHONPATH: src
+        run: python -m pytest -q tests
+      - name: Smoke test CLI
+        run: python projects/repolens/src/repolens.py . --json
