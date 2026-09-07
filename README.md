@@ -28,12 +28,11 @@ My goal is to develop the technical depth to independently design, build, deploy
 
 ## ⭐ Featured work
 
-### RepoLens
-A lightweight Python tool that checks a repository for practical engineering hygiene signals such as documentation, licensing, tests, environment templates, and CI.
+### [RepoLens](./projects/repolens)
+A lightweight, zero-dependency Python CLI that checks a repository for practical engineering-hygiene signals: documentation, licensing, tests, environment templates, and CI.
 
-**Status:** v0.1 — working foundation
-
-→ [`projects/repolens`](./projects/repolens)
+**Status:** v0.1 — working foundation  
+**Stack:** Python • pytest • GitHub Actions
 
 I'm building a portfolio around **original, well-engineered public projects** rather than a large collection of shallow repositories.
 
