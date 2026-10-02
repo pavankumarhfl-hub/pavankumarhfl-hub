@@ -4,6 +4,14 @@
 
 I build practical developer infrastructure, security tooling, distributed systems, and AI-agent infrastructure — with a focus on software that other developers can actually use.
 
+## Identity & technology direction
+
+**Pavan Kumar BN** is the founder attribution used across this portfolio. His broader organisational work is associated with **HFL — Hope For Life**, while the technology direction is developed through **HFL Tech Pvt Limited**.
+
+**AgentMesh** is an AI-agent infrastructure/platform project developed under that technology direction. The project README identifies Pavan Kumar BN as the owner/founder attribution and HFL Tech Pvt Limited as the company attribution. AgentMesh is currently under development; product and trademark claims should not be interpreted as completed registration or final commercial status.
+
+This portfolio separates the founder identity, HFL organisational work, technology projects, and third-party software/model dependencies rather than treating unrelated projects or companies as the same entity.
+
 ## 🚀 Featured open-source work
 
 ### [RepoLens](https://github.com/pavankumarhfl-hub/repolens)
